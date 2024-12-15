@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBEED5C82C09A70D0048059A /* Nicki_MinajApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5C72C09A70D0048059A /* Nicki_MinajApp.swift */; };
+		CBEED5CA2C09A70D0048059A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5C92C09A70D0048059A /* ContentView.swift */; };
+		CBEED5CC2C09A70E0048059A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEED5CB2C09A70E0048059A /* Assets.xcassets */; };
+		CBEED5CF2C09A70E0048059A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEED5CE2C09A70E0048059A /* Preview Assets.xcassets */; };
+		CBEED5D62C09A73D0048059A /* ATabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5D52C09A73C0048059A /* ATabView.swift */; };
+		CBEED5DA2C09A7580048059A /* CTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5D92C09A7580048059A /* CTabView.swift */; };
+		CBEED5DE2C09AAD80048059A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5DD2C09AAD80048059A /* Model.swift */; };
+		CBEED5E12C09B1CA0048059A /* SimpleNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = CBEED5E02C09B1CA0048059A /* SimpleNetworking */; };
+		CBEED5E42C09D6FE0048059A /* BTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5E32C09D6FD0048059A /* BTabViewModel.swift */; };
+		CBEED5E52C09D7250048059A /* BTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5D72C09A74D0048059A /* BTabView.swift */; };
+		CBEED5E82C09E3190048059A /* ATabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5E72C09E3190048059A /* ATabViewModel.swift */; };
+		CBEED5EB2C09E3320048059A /* CTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5EA2C09E3320048059A /* CTabViewModel.swift */; };
+		CBEED5ED2C09EC680048059A /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5EC2C09EC680048059A /* CharacterDetailsView.swift */; };
+		CBEED5EF2C09FE5F0048059A /* CharacterDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEED5EE2C09FE5F0048059A /* CharacterDetailsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBEED5C42C09A70D0048059A /* Nicki_Minaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nicki_Minaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEED5C72C09A70D0048059A /* Nicki_MinajApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nicki_MinajApp.swift; sourceTree = "<group>"; };
+		CBEED5C92C09A70D0048059A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBEED5CB2C09A70E0048059A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEED5CE2C09A70E0048059A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBEED5D52C09A73C0048059A /* ATabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATabView.swift; sourceTree = "<group>"; };
+		CBEED5D72C09A74D0048059A /* BTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTabView.swift; sourceTree = "<group>"; };
+		CBEED5D92C09A7580048059A /* CTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTabView.swift; sourceTree = "<group>"; };
+		CBEED5DD2C09AAD80048059A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CBEED5E32C09D6FD0048059A /* BTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTabViewModel.swift; sourceTree = "<group>"; };
+		CBEED5E72C09E3190048059A /* ATabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATabViewModel.swift; sourceTree = "<group>"; };
+		CBEED5EA2C09E3320048059A /* CTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTabViewModel.swift; sourceTree = "<group>"; };
+		CBEED5EC2C09EC680048059A /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
+		CBEED5EE2C09FE5F0048059A /* CharacterDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEED5C12C09A70D0048059A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEED5E12C09B1CA0048059A /* SimpleNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBEED5BB2C09A70D0048059A = {
+			isa = PBXGroup;
+			children = (
+				CBEED5C62C09A70D0048059A /* Nicki_Minaj */,
+				CBEED5C52C09A70D0048059A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEED5C52C09A70D0048059A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5C42C09A70D0048059A /* Nicki_Minaj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEED5C62C09A70D0048059A /* Nicki_Minaj */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5E92C09E3220048059A /* SearchPage */,
+				CBEED5E62C09E3000048059A /* Character Page */,
+				CBEED5E22C09B2590048059A /* EpisodePage */,
+				CBEED5C72C09A70D0048059A /* Nicki_MinajApp.swift */,
+				CBEED5C92C09A70D0048059A /* ContentView.swift */,
+				CBEED5CB2C09A70E0048059A /* Assets.xcassets */,
+				CBEED5CD2C09A70E0048059A /* Preview Content */,
+				CBEED5DD2C09AAD80048059A /* Model.swift */,
+			);
+			path = Nicki_Minaj;
+			sourceTree = "<group>";
+		};
+		CBEED5CD2C09A70E0048059A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5CE2C09A70E0048059A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBEED5E22C09B2590048059A /* EpisodePage */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5D72C09A74D0048059A /* BTabView.swift */,
+				CBEED5E32C09D6FD0048059A /* BTabViewModel.swift */,
+			);
+			path = EpisodePage;
+			sourceTree = "<group>";
+		};
+		CBEED5E62C09E3000048059A /* Character Page */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5D52C09A73C0048059A /* ATabView.swift */,
+				CBEED5E72C09E3190048059A /* ATabViewModel.swift */,
+				CBEED5EC2C09EC680048059A /* CharacterDetailsView.swift */,
+				CBEED5EE2C09FE5F0048059A /* CharacterDetailsViewModel.swift */,
+			);
+			path = "Character Page";
+			sourceTree = "<group>";
+		};
+		CBEED5E92C09E3220048059A /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				CBEED5D92C09A7580048059A /* CTabView.swift */,
+				CBEED5EA2C09E3320048059A /* CTabViewModel.swift */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEED5C32C09A70D0048059A /* Nicki_Minaj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEED5D22C09A70E0048059A /* Build configuration list for PBXNativeTarget "Nicki_Minaj" */;
+			buildPhases = (
+				CBEED5C02C09A70D0048059A /* Sources */,
+				CBEED5C12C09A70D0048059A /* Frameworks */,
+				CBEED5C22C09A70D0048059A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nicki_Minaj;
+			packageProductDependencies = (
+				CBEED5E02C09B1CA0048059A /* SimpleNetworking */,
+			);
+			productName = Nicki_Minaj;
+			productReference = CBEED5C42C09A70D0048059A /* Nicki_Minaj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEED5BC2C09A70D0048059A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CBEED5C32C09A70D0048059A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CBEED5BF2C09A70D0048059A /* Build configuration list for PBXProject "Nicki_Minaj" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEED5BB2C09A70D0048059A;
+			packageReferences = (
+				CBEED5DF2C09B1CA0048059A /* XCRemoteSwiftPackageReference "SimpleNetworking" */,
+			);
+			productRefGroup = CBEED5C52C09A70D0048059A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEED5C32C09A70D0048059A /* Nicki_Minaj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEED5C22C09A70D0048059A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEED5CF2C09A70E0048059A /* Preview Assets.xcassets in Resources */,
+				CBEED5CC2C09A70E0048059A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEED5C02C09A70D0048059A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEED5DA2C09A7580048059A /* CTabView.swift in Sources */,
+				CBEED5EB2C09E3320048059A /* CTabViewModel.swift in Sources */,
+				CBEED5D62C09A73D0048059A /* ATabView.swift in Sources */,
+				CBEED5ED2C09EC680048059A /* CharacterDetailsView.swift in Sources */,
+				CBEED5E82C09E3190048059A /* ATabViewModel.swift in Sources */,
+				CBEED5E42C09D6FE0048059A /* BTabViewModel.swift in Sources */,
+				CBEED5DE2C09AAD80048059A /* Model.swift in Sources */,
+				CBEED5CA2C09A70D0048059A /* ContentView.swift in Sources */,
+				CBEED5EF2C09FE5F0048059A /* CharacterDetailsViewModel.swift in Sources */,
+				CBEED5C82C09A70D0048059A /* Nicki_MinajApp.swift in Sources */,
+				CBEED5E52C09D7250048059A /* BTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBEED5D02C09A70E0048059A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBEED5D12C09A70E0048059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEED5D32C09A70E0048059A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nicki_Minaj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbc.Nicki-Minaj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEED5D42C09A70E0048059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nicki_Minaj/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tbc.Nicki-Minaj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEED5BF2C09A70D0048059A /* Build configuration list for PBXProject "Nicki_Minaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEED5D02C09A70E0048059A /* Debug */,
+				CBEED5D12C09A70E0048059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEED5D22C09A70E0048059A /* Build configuration list for PBXNativeTarget "Nicki_Minaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEED5D32C09A70E0048059A /* Debug */,
+				CBEED5D42C09A70E0048059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBEED5DF2C09B1CA0048059A /* XCRemoteSwiftPackageReference "SimpleNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GujMeister/SimpleNetworking";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBEED5E02C09B1CA0048059A /* SimpleNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBEED5DF2C09B1CA0048059A /* XCRemoteSwiftPackageReference "SimpleNetworking" */;
+			productName = SimpleNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CBEED5BC2C09A70D0048059A /* Project object */;
+}
